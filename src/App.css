@@ -2,31 +2,60 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+/* Navbar */
+.navbar {
+  background-color: #fff;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.09);
+  height: 70px;
+  max-height: 70px;
+}
+.navbar .navbar-brand {
+  color: #3a3f52;
+}
+.navbar .nav-link {
+  color: #53627C;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Home */
+.home-box {
+  padding: 12% 0;
+}
+.home-box h1 {
+  color: #3a3f52;
+  font-size: 50px;
+  line-height: 1.2;
+}
+.home-box p {
+  color: #8da2b5;
+  font-size: 24px
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
   }
-  to {
-    transform: rotate(360deg);
-  }
+}
+
+/* Form-login */
+.wrap-box {
+  padding: 8rem 0;
+}
+.form-group {
+  box-shadow: 0 12px 24px 10px rgba(36,37,38,0.08);
+  border-radius: 12px;
+  max-width: 40%;
+  margin: 0 auto;
+  padding: 2rem;
+}
+.form-group .form-control {
+  margin-bottom: 1rem;
+}
+
+/* Footer */
+.footer-box {
+  padding: 40px 0;
+}
+
+.footer-box span {
+  color: #8da2b5;
 }
